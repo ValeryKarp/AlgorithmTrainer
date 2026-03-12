@@ -1,0 +1,22 @@
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+
+# Сборка C++
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.pyd
+*.so
+
+# Файлы IDE
+.idea/
+.vscode/
+*.swp
+
+# Временные файлы
+__pycache__/
+*.pyc
+.DS_Store

@@ -35,6 +35,10 @@
   source .venv/bin/activate      # Linux/macOS
   .venv\Scripts\activate         # Windows
   ```
+  Если возникает ошибка безопасности PowerShell, выполните следующую команду а затем попробуйте заново
+  ```
+  Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
+  ```
 - Установите необходимые пакеты
   ```
   pip install -r requirements.txt
